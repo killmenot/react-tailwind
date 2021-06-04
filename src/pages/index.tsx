@@ -1,4 +1,4 @@
-import theme from '../theme'
+import theme from '../../theme.config'
 
 export default function Home() {
   return (
