@@ -1,4 +1,3 @@
-// import theme from '../../theme.config'
 import { Avatar, AvatarSizeEnum, AvatarShapeEnum } from 'common/roq-ui/avatar'
 import { Avatar2 } from 'common/roq-ui/avatar2'
 import { useTheme } from 'next-themes'
