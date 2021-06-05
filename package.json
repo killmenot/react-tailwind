@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 4000",
     "build": "next build",
     "start": "next start"
   },
@@ -19,15 +19,19 @@
   },
   "homepage": "https://github.com/killmenot/react-tailwind#readme",
   "devDependencies": {
-    "@types/react": "17.0.9",
+    "@types/react": "^17.0.9",
+    "@types/react-dom": "^17.0.6",
     "autoprefixer": "^10.2.6",
+    "clsx": "^1.1.1",
+    "nightwind": "^1.1.11",
     "postcss": "^8.3.0",
     "tailwindcss": "^2.1.4",
     "typescript": "4.3.2"
   },
   "dependencies": {
     "next": "10.2.3",
-    "react": "17.0.2",
+    "next-themes": "^0.0.14",
+    "react": "^17.0.2",
     "react-dom": "17.0.2"
   }
 }
